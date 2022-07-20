@@ -1,18 +1,5 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Crie uma classe denominada Elevador para armazenar as informações de um
+elevador dentro de um prédio. A classe deve armazenar o andar atual (térreo = 0),
+total de andares no prédio (desconsiderando o térreo), capacidade do elevador e
+quantas pessoas estão presentes nele. A classe deve também disponibilizar os
+seguintes métodos:
