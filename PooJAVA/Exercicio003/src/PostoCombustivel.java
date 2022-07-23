@@ -13,14 +13,16 @@ restante na bomba.
 Crie uma classe que contenha um método main para testar sua classe
 BombaCombustível */
 
-public class Posto {
+public class PostoCombustivel {
     public static void main(String[] args) throws Exception {
-       BombaCombustivel combustivelPosto = new BombaCombustivel();
+       BombaCombustivel PostoDeGasolina = new BombaCombustivel();
 
-       combustivelPosto.abastecerPorValor();
-       combustivelPosto.abastecerPorLitro();
-       combustivelPosto.alterarQuantidadeCombustivel();
-       combustivelPosto.alterarValorCombustivel();
-       combustivelPosto.alterarCombustivel();
+       PostoDeGasolina.AbastecerPorValor();
+       PostoDeGasolina.AbastecerPorLitro();
+       PostoDeGasolina.AlterarQuantidadeCombustivel();
+       PostoDeGasolina.AlterarValorCombustivel();
+       PostoDeGasolina.AlterarCombustivel();
+
+       System.out.println("Posto teste" + " "+ "Volte Sempre");
     }
 }
